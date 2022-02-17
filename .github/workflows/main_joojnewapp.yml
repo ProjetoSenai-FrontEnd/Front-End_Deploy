@@ -53,4 +53,4 @@ jobs:
           app-name: 'joojnewapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B044069268C8427A86FE90816A2EE09D }}
-          package: .
+          package: 'build'
